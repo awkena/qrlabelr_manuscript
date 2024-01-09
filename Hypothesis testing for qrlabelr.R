@@ -65,7 +65,7 @@ unique_id <- paste("KUMASI2023_PYT", c(1001:1200),
 ################################################################################
 
 ################################################################################
-# Test how long it takes the functions to run on test data-- run 100 times
+# Measure how long it takes the functions to run on test data-- run 100 times
 # Takes a long time to run
 if(!require('microbenchmark')) install.packages('microbenchmark')
 library(microbenchmark)
@@ -218,9 +218,6 @@ ppp <- ppp + scale_y_log10(name = "Time [milliseconds]")
 
 # Change to classical theme
 ppp <- ppp + theme_classic()
-
-# ppp <- ppp + geom_text(aes(label = hypothesis, y = 10000, x = 1.4), color = "blue") 
-# ppp <- ppp + geom_text(aes(label = gtext_win, y = 10000, x = 1.3), color = "blue") 
 
 ppp <- ppp +  annotate("table_npc", npcx = "center", npcy = "center",
                label = list(summ_win), size = 5)
