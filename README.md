@@ -1,10 +1,11 @@
 <br>  
 <!-- badges: start -->
 [![DOI](https://zenodo.org/badge/734320211.svg)](https://zenodo.org/doi/10.5281/zenodo.10636680)
-Microbenchmarking data and scripts for testing the hypothesis that the QR code generation functionality in qrlabelr is faster than its counterpart in the baRcodeR package.
 <!-- badges: end -->
 <br>  
 <br>  
+
+Microbenchmarking data and scripts for testing the hypothesis that the QR code generation functionality in qrlabelr is faster than its counterpart in the baRcodeR package.
 Fig. 4. Microbenchmarking the QR code generation functions in qrlabelr and baRcodeR packages
 
 Generating data to test the hypothesis that the QR code generation functionality in the qrlabelr pckage is faster than its counterpart in the baRocdeR package
